@@ -1,0 +1,24 @@
+{
+  "name": "developer-competency-matrix-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sibabalwe-Qamata/developer-competency-matrix-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sibabalwe-Qamata/developer-competency-matrix-api/issues"
+  },
+  "homepage": "https://github.com/Sibabalwe-Qamata/developer-competency-matrix-api#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.11.9",
+    "typescript": "^4.2.4"
+  }
+}

@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const create_matrix_1 = require("../controllers/create-matrix");
+const router = express_1.Router();
+router.post('/', create_matrix_1.createMatrix);
+router.get('/');
+router.patch('/:id');
+router.delete('/:id');
+exports.default = router;
